@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_timeline import timeline
 from PIL import Image
-image=Image.open("C:\\Users\\ASUS\\Downloads\\Untitled design.png")
+image=Image.open("Untitled design.png")
 st.set_page_config(page_title='Vighnesh Singhal\'s portfolio', layout='wide',page_icon='👨‍🔬')
 c1,c2=st.columns(2)
 with c1:
