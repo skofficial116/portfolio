@@ -4,7 +4,7 @@ from PIL import Image
 # Set page config
 st.set_page_config(page_title="Vighnesh Singhal's Portfolio", layout="wide", page_icon="👨‍🔬")
 # Load image
-image = Image.open("C:\\Users\\ASUS\\Downloads\\Untitled design.png")
+image = Image.open("Untitled design.png")
 # Custom CSS for better styling
 st.markdown("""
     <style>
