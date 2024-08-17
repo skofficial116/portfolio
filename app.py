@@ -5,6 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="Vighnesh Singhal's Portfolio", layout="wide", page_icon="👨‍🔬")
 # Load image
 image = Image.open("Untitled design.png")
+cont = Image.open("contact.png")
 # Custom CSS for better styling
 st.markdown("""
     <style>
@@ -127,7 +128,8 @@ contact_form = '''
 c1, c2 = st.columns(2)
 with c1:
     st.markdown(contact_form, unsafe_allow_html=True)
-
+with c2:
+    st.image(cont)
 # Resume Download Button
 st.markdown('<div class="section-title">Resume</div>', unsafe_allow_html=True)
 
