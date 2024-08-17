@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_timeline import timeline
 from PIL import Image
+from streamlit_lottie import st_lottie
+import requests
 # Set page config
 st.set_page_config(page_title="Vighnesh Singhal's Portfolio", layout="wide", page_icon="👨‍🔬")
 # Load image
@@ -129,9 +131,6 @@ with c1:
     st.markdown(contact_form, unsafe_allow_html=True)
 
 with c2:
-    from streamlit_lottie import st_lottie
-    import requests
-
     def load_lottie_url(url: str):
         r = requests.get(url)
         if r.status_code != 200:
