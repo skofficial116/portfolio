@@ -1,8 +1,6 @@
 import streamlit as st
 from streamlit_timeline import timeline
 from PIL import Image
-from streamlit_lottie import st_lottie
-import requests
 # Set page config
 st.set_page_config(page_title="Vighnesh Singhal's Portfolio", layout="wide", page_icon="👨‍🔬")
 # Load image
@@ -130,16 +128,6 @@ c1, c2 = st.columns(2)
 with c1:
     st.markdown(contact_form, unsafe_allow_html=True)
 
-with c2:
-    def load_lottie_url(url: str):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
-
-    lottie_animation = load_lottie_url("https://lottie.host/f5342f5c-8e37-4812-8185-440bb9a83b31/PRdaROZ1Ab.json")
-
-    st_lottie(lottie_animation, height=300, key="contact")
 # Resume Download Button
 st.markdown('<div class="section-title">Resume</div>', unsafe_allow_html=True)
 
