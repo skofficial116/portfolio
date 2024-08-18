@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(page_title="Vighnesh Singhal's Portfolio", layout="wide", page_icon="👨‍🔬")
 
 # Load image
-image = Image.open("C:\\Users\\ASUS\\Downloads\\Untitled design.png")
+image = Image.open("Untitled design.png")
 nss=Image.open("nss.jpg")
 tbi=Image.open("tbi.png")
 cont=Image.open("cont.png")
