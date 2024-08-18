@@ -1,11 +1,15 @@
 import streamlit as st
 from streamlit_timeline import timeline
 from PIL import Image
+
 # Set page config
 st.set_page_config(page_title="Vighnesh Singhal's Portfolio", layout="wide", page_icon="👨‍🔬")
+
 # Load image
-image = Image.open("Untitled design.png")
-cont = Image.open("contact.png")
+image = Image.open("C:\\Users\\ASUS\\Downloads\\Untitled design.png")
+nss=Image.open("nss.jpg")
+tbi=Image.open("tbi.png")
+cont=Image.open("cont.png")
 # Custom CSS for better styling
 st.markdown("""
     <style>
@@ -73,6 +77,7 @@ with c1:
     st.markdown('<div class="sub-title">I am <span style="color:blue;">Vighnesh Singhal</span></div>', unsafe_allow_html=True)
     st.markdown('A Computer Science Engineering student with a passion for coding and AI. I am always eager to tackle new challenges and contribute to innovative projects. 💻✨')
     
+    
     st.markdown('<div class="section-title">Skills</div>', unsafe_allow_html=True)
     
     s1, s2, s3 = st.columns(3)
@@ -92,6 +97,24 @@ with c1:
 
 with c2:
     st.image(image)
+    s1, s2 = st.columns(2)
+    with s1:
+        st.link_button("Linked IN","https://www.linkedin.com/in/vighnesh-singhal-33b792244/",type="primary")
+    with s2:
+        st.link_button("Git Hub","https://github.com/Vig7037",type="primary")
+# Experience Section
+st.markdown('<div class="section-title">Experience</div>', unsafe_allow_html=True)
+st.image(nss)
+st.markdown('''<div class="experience">
+    <h3>NSS Volunteer, Graphic Era Deemed to be University (Oct 2022 - Feb 2024)</h3>
+    <p>Coordinated numerous campus events during tenure as NSS Volunteer, achieving a 30% rise in event attendance and earning accolades for exceptional organizational skills and community engagement.</p>
+</div>''', unsafe_allow_html=True)
+st.image(tbi)
+st.markdown('''<div class="experience">
+    <h3>Research Intern, Technology Business Incubator (TBI), Graphic Era Deemed to be University (July 2024 - October 2024)</h3>
+    <p>Engaged in research tasks with a focus on innovation and technology development, contributing to various projects within a hybrid working environment. Potential for extension based on performance.</p>
+</div>''', unsafe_allow_html=True)
+
 
 # Projects Section
 st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
@@ -105,6 +128,7 @@ st.markdown('<div class="section-title">Certifications</div>', unsafe_allow_html
 certifications = [
     "Python Programming Course (Blaze Forge)",
     "Python Basics (HackerRank)",
+    "Azure AI Fundamentals",
     "NSS B Certificate (National Service Scheme)"
 ]
 for cert in certifications:
@@ -128,6 +152,7 @@ contact_form = '''
 c1, c2 = st.columns(2)
 with c1:
     st.markdown(contact_form, unsafe_allow_html=True)
+
 with c2:
     st.image(cont)
 # Resume Download Button
