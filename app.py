@@ -117,12 +117,6 @@ st.markdown('''
         Developed an interactive web application to assist users in planning personalized trips to Uttarakhand. 
         The app features itinerary generation, local attractions, and adventure recommendations using cutting-edge AI technologies.
     </p>
-    <ul>
-        <li>Built with <strong>Python</strong> and <strong>Streamlit</strong>, offering a user-friendly experience.</li>
-        <li>Integrated <strong>NVIDIA AI</strong> for intelligent recommendations and chatbot functionalities.</li>
-        <li>Implemented <strong>custom CSS</strong> for visually engaging cards displaying local attractions, cuisines, and activities.</li>
-        <li>Leveraged <strong>LangChain</strong> and <strong>FAISS</strong> for document loading and vector embedding.</li>
-    </ul>
     <p><strong>Achievement:</strong> Delivered a fully functional travel planning tool that garnered positive feedback for its innovative approach.</p>
 </div>
 ''', unsafe_allow_html=True)
