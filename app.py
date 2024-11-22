@@ -114,7 +114,23 @@ st.markdown('''<div class="experience">
     <h3>Research Intern, Technology Business Incubator (TBI), Graphic Era Deemed to be University (July 2024 - October 2024)</h3>
     <p>Engaged in research tasks with a focus on innovation and technology development, contributing to various projects within a hybrid working environment. Potential for extension based on performance.</p>
 </div>''', unsafe_allow_html=True)
-
+st.image("innofusion_winning.jpg", use_column_width=True)
+st.markdown('''
+<div class="experience">
+    <h3>🏔️ Uttarakhand Trip Planner (April 2024 - August 2024)</h3>
+    <p>
+        Developed an interactive web application to assist users in planning personalized trips to Uttarakhand. 
+        The app features itinerary generation, local attractions, and adventure recommendations using cutting-edge AI technologies.
+    </p>
+    <ul>
+        <li>Built with <strong>Python</strong> and <strong>Streamlit</strong>, offering a user-friendly experience.</li>
+        <li>Integrated <strong>NVIDIA AI</strong> for intelligent recommendations and chatbot functionalities.</li>
+        <li>Implemented <strong>custom CSS</strong> for visually engaging cards displaying local attractions, cuisines, and activities.</li>
+        <li>Leveraged <strong>LangChain</strong> and <strong>FAISS</strong> for document loading and vector embedding.</li>
+    </ul>
+    <p><strong>Achievement:</strong> Delivered a fully functional travel planning tool that garnered positive feedback for its innovative approach.</p>
+</div>
+''', unsafe_allow_html=True)
 
 # Projects Section
 st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
@@ -158,11 +174,11 @@ with c2:
 # Resume Download Button
 st.markdown('<div class="section-title">Resume</div>', unsafe_allow_html=True)
 
-with open("vighnesh_resume.pdf", "rb") as file:
+with open("Vighnesh_resume.pdf", "rb") as file:
     st.download_button(
         label="📄 Download Resume",
         data=file,
-        file_name="vighnesh_resume.pdf",
+        file_name="Vighnesh_resume.pdf",
         mime="application/pdf",
     )
 
