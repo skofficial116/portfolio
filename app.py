@@ -114,10 +114,10 @@ st.markdown('''<div class="experience">
     <h3>Research Intern, Technology Business Incubator (TBI), Graphic Era Deemed to be University (July 2024 - October 2024)</h3>
     <p>Engaged in research tasks with a focus on innovation and technology development, contributing to various projects within a hybrid working environment. Potential for extension based on performance.</p>
 </div>''', unsafe_allow_html=True)
-st.image("innofusion_winning.jpg", use_column_width=True)
+st.image("aci.jpg", use_column_width=True)
 st.markdown('''
 <div class="experience">
-    <h3>🏔️ Uttarakhand Trip Planner (April 2024 - August 2024)</h3>
+    <h3>🏔️ Project Showcase</h3>
     <p>
         Developed an interactive web application to assist users in planning personalized trips to Uttarakhand. 
         The app features itinerary generation, local attractions, and adventure recommendations using cutting-edge AI technologies.
