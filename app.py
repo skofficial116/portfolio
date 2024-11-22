@@ -109,11 +109,6 @@ st.markdown('''<div class="experience">
     <h3>NSS Volunteer, Graphic Era Deemed to be University (Oct 2022 - Feb 2024)</h3>
     <p>Coordinated numerous campus events during tenure as NSS Volunteer, achieving a 30% rise in event attendance and earning accolades for exceptional organizational skills and community engagement.</p>
 </div>''', unsafe_allow_html=True)
-st.image(tbi)
-st.markdown('''<div class="experience">
-    <h3>Research Intern, Technology Business Incubator (TBI), Graphic Era Deemed to be University (July 2024 - October 2024)</h3>
-    <p>Engaged in research tasks with a focus on innovation and technology development, contributing to various projects within a hybrid working environment. Potential for extension based on performance.</p>
-</div>''', unsafe_allow_html=True)
 st.image("aci.jpg", use_column_width=True)
 st.markdown('''
 <div class="experience">
