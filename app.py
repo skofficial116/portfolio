@@ -108,7 +108,7 @@ st.markdown('''<div class="experience">
     <h3>NSS Volunteer, Graphic Era Deemed to be University (Oct 2022 - Feb 2024)</h3>
     <p>Coordinated numerous campus events during tenure as NSS Volunteer, achieving a 30% rise in event attendance and earning accolades for exceptional organizational skills and community engagement.</p>
 </div>''', unsafe_allow_html=True)
-st.image("aci.jpg", use_column_width=True)
+st.image("aci.jpg")
 st.markdown('''
 <div class="experience">
     <h3>🏔️ Project Showcase</h3>
@@ -119,7 +119,7 @@ st.markdown('''
     <p><strong>Achievement:</strong> Delivered a fully functional travel planning tool that garnered positive feedback for its innovative approach.</p>
 </div>
 ''', unsafe_allow_html=True)
-st.image("research.png", use_column_width=True)
+st.image("research.png")
 st.markdown('''
 <div class="experience">
     <h3> 🧑🏻‍🎓Research Paper Presentation</h3>
