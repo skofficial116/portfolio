@@ -86,9 +86,8 @@ with c1:
         st.write('Streamlit, Langchain, Tkinter')
     with s2:
         st.button("Java", key='java_button')
-        st.write("JDBC, JVM")
     with s3:
-        st.button("C++", key='cpp_button')
+        st.button("C", key='cpp_button')
     
     st.button("Operating Systems", key='os_button')
     st.write("Windows, Linux")
@@ -120,7 +119,15 @@ st.markdown('''
     <p><strong>Achievement:</strong> Delivered a fully functional travel planning tool that garnered positive feedback for its innovative approach.</p>
 </div>
 ''', unsafe_allow_html=True)
-
+st.image("research.png", use_column_width=True)
+st.markdown('''
+<div class="experience">
+    <h3> 🧑🏻‍🎓Research Paper Presentation</h3>
+    <p>
+        Developed an encryption algorithm by which we can safely transfer our data.
+    </p>
+</div>
+''', unsafe_allow_html=True)
 # Projects Section
 st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
 with st.spinner(text="Building project timeline..."):
