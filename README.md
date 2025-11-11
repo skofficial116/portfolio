@@ -1,12 +1,19 @@
-# React + Vite
+# 🌌 Full-Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dark-themed developer portfolio built with **React**, **Tailwind CSS**, and **Lucide Icons** — designed to showcase my projects, skills, and professional experience as a **Full-Stack Developer** (with the main focus on backend technologies like Node.js and Express).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ **React + Vite** setup for fast builds and performance  
+- 🎨 **Dark minimal UI** with custom indigo-accent theme  
+- 🧩 Modular sections:
+  - Hero (intro + photo)
+  - Skills
+  - Projects
+  - Services / Experience
+- 🖼️ **Responsive design** across all screen sizes  
+- 💬 **Lucide React icons** for a clean, modern look  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
