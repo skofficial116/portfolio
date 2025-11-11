@@ -50,20 +50,20 @@ const Hero = () => {
           >
             <Github size={24} />
           </a>
-          <a
+          {/* <a
             href="https://linkedin.com/in/yourusername"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-indigo-400 transition"
           >
             <Linkedin size={24} />
-          </a>
+          </a> */}
         </div>
       </div>
 
       <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 shadow-lg hover:shadow-indigo-600/30 transition">
         <img
-          src="/favicon.jpg"
+          src="https://skofficial116.github.io/portfolio/favicon.jpg"
           alt="Your portrait"
           className="object-cover w-full h-full scale-105 hover:scale-110 transition-transform duration-500"
         />

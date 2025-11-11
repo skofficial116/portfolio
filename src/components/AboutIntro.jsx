@@ -25,7 +25,7 @@ const AboutIntro = () => {
       <div className="flex-1 flex justify-center">
         <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-500 shadow-xl shadow-indigo-600/20">
           <img
-            src="/favicon.jpg"
+            src="https://skofficial116.github.io/portfolio/favicon.jpg"
             alt="Your portrait"
             className="w-full h-full object-cover scale-105 hover:scale-110 transition-transform duration-500"
           />
