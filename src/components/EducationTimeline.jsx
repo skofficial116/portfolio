@@ -8,7 +8,7 @@ const EducationTimeline = () => {
       title: (
         <>
           Secondary School (10th){" "}
-          <span className="text-amber-200 font-medium">88.88%</span>
+          <span className="text-amber-200 font-medium">88.83%</span>
         </>
       ),
       institution: "ST. Francis School, Ludhiana, Punjab",
@@ -21,7 +21,7 @@ const EducationTimeline = () => {
       title: (
         <>
           Higher Secondary (12th){" "}
-          <span className="text-amber-200 font-medium">82%</span>
+          <span className="text-amber-200 font-medium">85.07%</span>
         </>
       ),
       institution: "S.D.P. Senior Secondary School, Ludhiana",
