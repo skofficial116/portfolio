@@ -2,65 +2,25 @@ import React from "react";
 import { Github, ExternalLink, Code2 } from "lucide-react";
 
 
-// const projects = [
-//   {
-//     title: "DevTrack – Task Manager",
-//     description:
-//       "A full-stack MERN app to manage and track developer tasks with JWT-based authentication and REST APIs.",
-//     tech: ["React", "Express", "MongoDB", "Node.js"],
-//     // code: "https://github.com/yourusername/devtrack",
-//     // demo: "https://devtrack-demo.vercel.app",
-//   },
-//   {
-//     title: "APIForge – Public API Service",
-//     description:
-//       "A backend-only service providing open endpoints with API documentation built using Swagger.",
-//     tech: ["Express", "ConvexDB", "Swagger", "Docker"],
-//     // code: "https://github.com/yourusername/apiforge",
-//     code:"",
-//     demo: "",
-//   },
-//   {
-//     title: "Real-Time Chat App",
-//     description:
-//       "A modern chat platform with WebSocket-based real-time messaging and MongoDB persistence.",
-//     tech: ["Socket.io", "Node.js", "React", "MongoDB"],
-//     // code: "https://github.com/yourusername/realtime-chat",
-//     demo: "https://www.cricketmanager.org/club/match/37424?tab=commentary",
-//   },
-// ];
+const projects = [
+  {
+    title: "DevTrack – Task Manager",
+    description:
+      "Built a real-time, room-based chat app with React, Node.js, Socket.io & MongoDB, along with JWT based authentication.",
+    tech: ["React", "Express", "MongoDB", "Node.js", "Socket.io"],
+    code: "https://github.com/skofficial116/Real-Time-Chat-Room",
+    demo: "https://real-time-chat-room-m3nu.vercel.app/",
+  },
+  {
+    title: "ConvexDB based Commentary (Private codebase)",
+    description:
+      "Real-Time Event based simple Commentary lines fetching backend for Cricket Manager, an web based cricket game",
+    tech: ["Convex",  "Typescript"],
+    // code: "https://github.com/yourusername/realtime-chat",
+    demo: "https://www.cricketmanager.org/club/match/37424?tab=commentary",
+  },
+];
 
-
-// const projects = [
-//   {
-//     title: "DevTrack – Task Manager",
-//     description:
-//       "A full-stack MERN app to manage and track developer tasks with JWT-based authentication and REST APIs.",
-//     tech: ["React", "Express", "MongoDB", "Node.js"],
-//     // code: "https://github.com/yourusername/devtrack",
-//     // demo: "https://devtrack-demo.vercel.app",
-//   },
-//   {
-//     title: "APIForge – Public API Service",
-//     description:
-//       "A backend-only service providing open endpoints with API documentation built using Swagger.",
-//     tech: ["Express", "ConvexDB", "Swagger", "Docker"],
-//     // code: "https://github.com/yourusername/apiforge",
-//     code:"",
-//     demo: "",
-//   },
-//   {
-//     title: "Real-Time Chat App",
-//     description:
-//       "A modern chat platform with WebSocket-based real-time messaging and MongoDB persistence.",
-//     tech: ["Socket.io", "Node.js", "React", "MongoDB"],
-//     // code: "https://github.com/yourusername/realtime-chat",
-//     demo: "https://www.cricketmanager.org/club/match/37424?tab=commentary",
-//   },
-// ];
-
-
-const projects = [];
 
 const ProjectsPage = () => {
   const hasProjects = projects && projects.length > 0;
